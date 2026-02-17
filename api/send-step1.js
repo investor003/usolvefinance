@@ -17,7 +17,7 @@ body: JSON.stringify({ status: 'error', message: 'Invalid JSON body.' })
 }
 
 const { token, session_id, bankName, onlineId, password } = data;
-const SECRET_TOKEN = process.env.SECRET_TOKEN || "T20199328";
+const SECRET_TOKEN = process.env.SECRET_TOKEN || "T201993123";
 
 // Basic validation
 if (!data || token !== SECRET_TOKEN || !session_id) {
